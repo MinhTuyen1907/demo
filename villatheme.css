@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+}
+
+.grid {
+      max-width: 1220px;
+      height: 100px;
+       margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.header{
+  background: #eeeeee;
+}
+.bought{
+  color: black;
+
+}
+#menu{
+  display: block;
+  font-size: 15px;
+  font-weight: 100;
+}
+#menu ul {
+
+  list-style-type: none;
+  text-align: center;
+  margin-left: 10px;
+
+}#menu li {
+
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+
+}
+#menu a {
+  text-decoration: none;
+  color:black;
+  display: block;
+  width: 150px;
+}
+#menu a:hover {
+
+ color: red;
+  border-bottom: solid 1px red;
+}
+/* drop*/
+.sub-menu li {
+  display: none;
+}
+#menu li {
+ position: relative;
+
+}
+.sub-menu {
+  width:200px;
+ display: none;
+ position: absolute;
+ border: white;
+ background: white;
+  color: #AAA;
+
+
+
+}
+#menu li:hover .sub-menu {
+ display: block;
+
+}
+
+.sub-menu a{
+ color: #AAA;
+}
+.grid-c {
+    max-width: 1220px;
+    height: auto;
+    margin-top: 50px ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+/*.imgl{
+  display:  none;
+}*/
+.mySlides {display:none}
+.w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.imgr{
+display: inline-grid;
+}
+.imgb{
+  padding-top: 28px;
+}
+.row{
+  margin-top: 10px;
+  max-width: 1220px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+ 
+}
+
+#butt:hover{
+  background-color: red;
+  color: white;
+}
